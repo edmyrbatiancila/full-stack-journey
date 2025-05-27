@@ -111,6 +111,8 @@ This file logs everything I’ve done from the last week of May to prepare for m
 
 - Created a GitHub repo to track my learning: https://github.com/edmyrbatiancila/full-stack-journey
 
+- I went back to read previous challenges that I did specifically in first challenge that I resolved called 'squareSum'. In this challenge I used a for loops which is a very basic one. Now I realized that there is a different approach to that by using reduce which is one of the method for arrays. After using the reduce I only consume one line of code for the logic.
+
 
 
 ## 🔧 Setup Progress
