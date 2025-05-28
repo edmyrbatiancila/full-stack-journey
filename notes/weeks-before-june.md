@@ -8,7 +8,7 @@ This file logs everything I’ve done from the last week of May to prepare for m
 ## ✅ Practice Challenges Completed
 
 ### 🔹 JavaScript Mini Challenges
-- **Square Sum Function** – practiced `for loop`, squaring values
+1. **Square Sum Function** – practiced `for loop`, squaring values
     - My Initial Solution:
 
         ```js
@@ -31,7 +31,7 @@ This file logs everything I’ve done from the last week of May to prepare for m
 
     - ✅ Learned: Looping, mutation caution
 
-- **Convert Number to String**
+2. **Convert Number to String**
     - My Initial Solution:
 
         ```js
@@ -49,7 +49,7 @@ This file logs everything I’ve done from the last week of May to prepare for m
 
     - Learned: Type casting basics
 
-- **Positive Sum Challenge**
+3. **Positive Sum Challenge**
 
     - My Initial Solution:
 
@@ -74,7 +74,7 @@ This file logs everything I’ve done from the last week of May to prepare for m
         }
         ```
 
-- **Perfect Square Checker**
+4. **Perfect Square Checker**
 
     - My Initital Solution:
 
@@ -100,6 +100,53 @@ This file logs everything I’ve done from the last week of May to prepare for m
         }
         ```
 
+5. **Count by X**
+
+    - My Initial Solution:
+
+        ```js
+            function countBy(x, n) {
+                let z = [];
+                let counter = 0;
+
+                for (let i = 0; i <= n; i++>) {
+                    if (z.length !== n) {
+                        counter += x;
+                        z.push(counter);
+                    } else {
+                        return z;
+                    }
+                }
+            }
+        ```
+
+    - Refactored Solution:
+
+        ```js
+        function countBy(x, n) {
+            let result = [];
+            for (let i = 1; i <= n; i++) {
+                result.push(i * x);
+            }
+            return result;
+        }
+
+        ```
+
+
+6. **Convert Hours into Seconds**
+
+    - My Initial Solution:
+
+        ```js
+            function howManySeconds(hours) {
+                return hours * 3600;
+            }
+        ```
+
+    - No refactored needed.
+
+
 
 
 ## 🧠 Reflections
@@ -112,6 +159,8 @@ This file logs everything I’ve done from the last week of May to prepare for m
 - Created a GitHub repo to track my learning: https://github.com/edmyrbatiancila/full-stack-journey
 
 - I went back to read previous challenges that I did specifically in first challenge that I resolved called 'squareSum'. In this challenge I used a for loops which is a very basic one. Now I realized that there is a different approach to that by using reduce which is one of the method for arrays. After using the reduce I only consume one line of code for the logic.
+
+- I read again the 2 previous challenges and I can say that I did improve a little bit about looping, arrays, and conditional. I was able to combine the logic in a function but still I have a lot to learn for the ready made references or methods that can be use that has a multiple logic. For example: reduce(), filter(), map, String(), isInteger() and so on.
 
 
 
@@ -139,3 +188,39 @@ This file logs everything I’ve done from the last week of May to prepare for m
 - Begin Week 1: JavaScript Core Deep Dive
 
 - Commit daily to notes/ or study-focus-rotation/week-01/
+
+---
+
+
+## 🗓️ Reflection Note – Wednesday (PHT)
+**Date:** 2025-05-28
+
+**🧠 What I’ve Accomplished So Far:**
+
+- Solved multiple challenges on Codewars and Edabit ✅
+
+- Wrote and refined clean JavaScript functions using my own logic 💡
+
+- Started a GitHub repo to document my full-stack developer journey 🌐
+
+- Created and maintained a well-organized Trello study board with structured lists and checklists ✅
+
+**🔍 What I Noticed:**
+
+- I’m getting better at understanding logic after writing or reviewing code.
+
+- I rely on AI initially, but I grasp the logic afterward, which helps solidify my learning.
+
+- Time management is improving with structured scheduling.
+
+**📌 Things to Improve:**
+
+- Try solving more challenges without any assistance first to boost logic development.
+
+- Spend 5–10 minutes reviewing documentation or core concepts weekly.
+
+- Keep my refactor-notes.md updated consistently.
+
+**🧘 Today's Intention:**
+
+- Take a step back, reflect on how far I’ve come, and recharge. Progress doesn’t always mean writing code—it can also mean strengthening my mindset and strategy.
