@@ -153,6 +153,34 @@ This file logs everything I’ve done from the last week of May to prepare for m
 
     - No refactored needed.
 
+7. **Reversed Strings**
+
+    - My Initial Solution:
+
+        ```js
+            function solution(str){
+                const strToArr = str.split('');
+                
+                strToArr.reverse();
+                
+                return strToArr.join("");
+            }
+        ```
+
+    - Refactore Solution:
+
+        ```js
+            function solution(str) {
+                return str.split("").reverse().join("");
+            }
+        ```
+
+    - Arrow function style:
+
+        ```js
+            const solution = (str) => str.split("").reverse().join("");
+        ```
+
 
 
 
@@ -168,6 +196,8 @@ This file logs everything I’ve done from the last week of May to prepare for m
 - I went back to read previous challenges that I did specifically in first challenge that I resolved called 'squareSum'. In this challenge I used a for loops which is a very basic one. Now I realized that there is a different approach to that by using reduce which is one of the method for arrays. After using the reduce I only consume one line of code for the logic.
 
 - I read again the 2 previous challenges and I can say that I did improve a little bit about looping, arrays, and conditional. I was able to combine the logic in a function but still I have a lot to learn for the ready made references or methods that can be use that has a multiple logic. For example: reduce(), filter(), map, String(), isInteger() and so on.
+
+- I was able to understand how to convert the string to array by using .split(). for reversing the array you need to use .reverse(), and then to convert the array to string without including the comma you will use .join("")
 
 
 
