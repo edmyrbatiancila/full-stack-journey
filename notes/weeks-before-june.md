@@ -7,6 +7,13 @@ This file logs everything I’ve done from the last week of May to prepare for m
 
 ## ✅ Practice Challenges Completed
 
+### Front-end Mentor Challenges:
+
+1. **QR Code Generator UI**
+    - My Solution is under folder /projects/FrontEndMentor/Challenge1-QRCodeGenerator/MySolution
+        - I used HTML and CSS for this project alone it took me 1 and a half hours.
+
+
 ### 🔹 JavaScript Mini Challenges
 1. **Square Sum Function** – practiced `for loop`, squaring values
     - My Initial Solution:
