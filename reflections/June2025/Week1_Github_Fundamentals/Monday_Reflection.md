@@ -1,6 +1,5 @@
 # 📅 Monday June 2, 2025
 
----
 
 ## Topics: Git and Github Fundamentals.
 
