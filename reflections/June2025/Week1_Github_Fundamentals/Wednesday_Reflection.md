@@ -2,18 +2,18 @@
 
 ## 👓Topic : [Getting started with your GitHub account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
 
-- I learned in this article on how to start using your GitHub account. There are a lot of ways to do in this platform, for instance you as a user you should consider creating a 2FA(Two Factor Authentication) to make sure that your account is fully secured and nothing to lose if ever someone will try to hack your account or do something about your repositories created.
+- I learned how to get started with using a GitHub account. The platform offers many useful features, and one of the most important things I learned is the importance of enabling **Two-Factor Authentication (2FA)**. This adds an extra layer of security to protect your account and repositories from unauthorized access.
 
-- I am also able to relate on how I usually connect my account to GitHub and was able to collaborate with my senior smoothly because of the approach that we used together. This approach is about merging request to the branch you are working on to the main branch. It should be in a well maintained way to make sure that the changes or any commits that will done will have zero conflicts.
+- I could relate this topic to how I normally connect my local machine to GitHub. I’ve also experienced smooth collaboration with my senior through **pull request workflows**. This approach ensures that changes made on feature branches are reviewed and merged into the main branch systematically, reducing the risk of conflicts and keeping the project organized.
 
 
 
 ## 💪Topic: [Git Skill: GitHub Pages](https://github.com/edmyrbatiancila/skills-github-pages)
 
-- In this topic I went to exercise which is interactive and fun to do. In this exercise I was able to succcessfully created a simple web pages which is essential to published your website created and can be viewed for everyone.
+- This was a fun and interactive exercise where I successfully created a simple web page using GitHub Pages. It reinforced how useful this feature is for publishing static websites directly from a GitHub repository.
 
-- I already know how to do it because of Angela Yu. I was able to create web pages using the repository that I made.
+- I already had experience with GitHub Pages through Angela Yu’s course, so I was familiar with the process. Revisiting this topic made me more confident in deploying websites from repositories.
 
-- Going back to this topic, I am very confident on how to do it on my end.
+- Overall, I feel very comfortable with this skill and appreciate the hands-on nature of the exercise.
 
 
