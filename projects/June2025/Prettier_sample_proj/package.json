@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "3.6.1"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
